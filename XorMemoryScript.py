@@ -26,7 +26,7 @@
 	***********
 
 	[Memory method]
-	void setByte(Address addr, byte value) throws MemoryAccessException
+	void setByte(Address addr, byte value) throws MemoryAccessExceptioni
 		
 		Write byte at addr.
 		
@@ -66,5 +66,5 @@ def run():
 	Note that you'll get an exception if you try to XOR memory that is part of defined functions - just use it to XOR data
 	"""
 
-
+some test
 run()
